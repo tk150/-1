@@ -9,9 +9,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 
-// 以下的代码用来降低旋转分辨率，怀疑默认是4，尝试修改至2
-&left_encoder { resolution = <2>; };
-&right_encoder { resolution = <2>; };
+// 以下的代码用来降低旋转分辨率，怀疑默认是4或2，尝试修改至1
+&left_encoder { resolution = <1>; };
+&right_encoder { resolution = <1>; };
 
 / {
     keymap {
