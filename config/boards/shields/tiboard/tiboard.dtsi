@@ -96,9 +96,9 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
 		status = "disabled";
         compatible = "gpio-ps2";
 
-        // The two bottom left pins of the nice!nano (when it is facing down)
-        scl-gpios = <&pro_micro 0 0>;
-        sda-gpios = <&pro_micro 4 0>;
+        // 
+        scl-gpios = <&pro_micro 4 0>;
+        sda-gpios = <&pro_micro 0 0>;
     };
 };
 
